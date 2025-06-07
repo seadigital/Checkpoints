@@ -1,0 +1,91 @@
+:root{
+    --font-size: 16px;
+    --mono: monospace;
+    --camb: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aqua;
+}
+
+.mainbackground{
+    background: linear-gradient(90deg, #0e1b25 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+
+}
+
+.main{
+    max-width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    color: aqua;
+}
+
+.namelogo{
+    color: white;
+}
+
+.navitems{
+    color: white;
+}
+
+.navitems ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 18px;
+}
+
+.hero{
+    display: flex;
+
+}
+
+.intro{
+    padding: 20px 0 20px 0;
+    color: white;
+}
+
+.intro h1{
+    font-size: 48px;
+    color: aqua;
+}
+
+
+
+.information{
+    margin: auto;
+    max-width: 80%;
+}
+
+.resume{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+
+.resume button{
+    width: 120px;
+    height: 42px;
+    border: none;
+    text-align: center;
+    background-color: #0e1b25;
+    color: white;
+    border-radius: 8px;
+}
