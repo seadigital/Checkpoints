@@ -4,88 +4,183 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Sea Resturant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="Heading">
-        <h1>SEA RESTURANT</h1>
-    </div>
-    <hr>
-    <div>
-        <h1>Appetizer</h1>
 
-    <ul>
-        <li>Bruschetta</li>
-        <li>Stuffed Mushrooms</li>
-        <li>Shrimp Cocktail</li>
-    </ul>
-        <div>
-            <h3>Bruschetta</h3>
-            <p>Toasted slices of baguette topped with a mixture of diced tomatoes, fresh basil, garlic, olive oil, and balsamic vinegar. A classic Italian starter.</p> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid nav-item">
+            <a class="navbar-brand" href="#">SEA RESTURANT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navitems" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success" type="submit">Make a reservation</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container banner">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="banner_content">
+                    <h1>Where every Ingredients</h1>
+                    <h1>tells a story</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis odit assumenda quae veritatis, <br> libero eos alias itaque quia, accusantium neque quas nesciunt culpa iusto minus unde ab minima ea. <br></p>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-left">
+        <h1>View Our Menus</h1>
+        <div class="row">
+            <div class="col">
+                <div>
+                    <h2>Appetizer</h2>
+                    <div class="food">
+                        <img src="food1.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li>Bruschetta</li>
+                        <li>Stuffed Mushrooms</li>
+                        <li>Shrimp Cocktail</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col">
+                <div>
+                    <h2>Main Course</h2>
+                    <div class="food">
+                        <img src="food2.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li>Grilled Salmon with Lemon-Dill Sauce</li>
+                        <li>Chicken Alfredo Pasta</li>
+                        <li>Beef Stir-Fry</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col">
+                <div>
+                    <h2>Dessert</h2>
+                    <div class="food">
+                        <img src="food3.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li>Chocolate Lava Cake</li>
+                        <li>Tiramisu</li>
+                        <li>Strawberry Cheesecake</li>
+                    </ul>
+                </div>
+
         </div>
 
-        <div>
-            <h3>Stuffed Mushrooms</h3>
-            <p>Button mushrooms filled with a savory blend of cream cheese, garlic, herbs, and breadcrumbs, then baked until golden and tender.</p> 
+    </div>
+
+
+    <hr>
+    <div class="aboutus">
+        <h1>Know more about Sea Resturant</h1>
+    </div>
+
+    <div class="card about-card mb-3">
+    <img src="../FictionalResturant/aboutpic1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Delicious Food with meaning</h5>
+            <p class="card-text">Born from a love of the ocean and a passion for fresh, flavorful dining, Sea Restaurant opened its doors in 2025. We envisioned a place where vivid coastal ambiance meets exceptional quality — where every meal feels like a celebration of sea and sky.</p>
+            <p class="card-text"><small class="text-body-secondary">Read more...</small></p>
         </div>
+    </div>
+    
+    <hr>
 
-        <div>
-            <h3>Shrimp Cocktail</h3>
-            <p>Chilled, cooked shrimp served with a zesty cocktail sauce made from ketchup, horseradish, lemon juice, and Worcestershire sauce. A refreshing and elegant appetizer.</p> 
+
+    <hr>
+
+    <hr>
+    <div>
+        <h3>You can keep in touch with us</h3>
+    <form>
+    <div class="row mb-3">
+        <label for="inputUsername" class="col-sm-2 col-form-label">Full Name</label>
+        <div class="col-sm-10">
+        <input type="name" class="form-control" id="inputUsername">
         </div>
-            
     </div>
-    <hr>
-
-    <div>
-        <h1>Main Course</h1>
-        <ul>
-            <li>Grilled Salmon with Lemon-Dill Sauce</li>
-            <li>Chicken Alfredo Pasta</li>
-            <li>Beef Stir-Fry</li>
-        </ul>
-            <div>
-                <h3>Bruschetta</h3>
-                <p>A fillet of salmon grilled to perfection and topped with a creamy lemon-dill sauce, served with roasted vegetables or rice.</p> 
-            </div>
-    
-            <div>
-                <h3>Chicken Alfredo Pasta</h3>
-                <p>Tender pieces of chicken breast tossed with fettuccine in a rich, creamy Alfredo sauce made with Parmesan cheese, butter, and garlic.</p> 
-            </div>
-    
-            <div>
-                <h3>Beef Stir-Fry</h3>
-                <p>Thinly sliced beef sautéed with colorful vegetables like bell peppers and broccoli in a savory soy-ginger sauce, typically served over steamed rice or noodles.</p> 
-            </div>
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword3">
+        </div>
     </div>
 
-    <hr>
-
-    <div>
-        <h1>Dessert</h1>
-        <ul>
-            <li>Chocolate Lava Cake</li>
-            <li>Tiramisu</li>
-            <li>Strawberry Cheesecake</li>
-        </ul>
-            <div>
-                <h3>Chocolate Lava Cake</h3>
-                <p>A rich, individual chocolate cake with a gooey molten center, often served warm with a scoop of vanilla ice cream.</p> 
-            </div>
-    
-            <div>
-                <h3>Chicken Alfredo Pasta</h3>
-                <p>An Italian layered dessert made with coffee-soaked ladyfingers, mascarpone cheese, cocoa powder, and a hint of liqueur.</p> 
-            </div>
-    
-            <div>
-                <h3>Strawberry Cheesecake</h3>
-                <p>A creamy cheesecake with a graham cracker crust, topped with a fresh strawberry glaze and whole strawberries for a sweet, fruity finish.</p> 
-            </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
     </div>
-    <hr>
-    <div>
-        Contact us <a href="">Here</a>
+
+   
+    </div>
+
+     <div class="footer">
+        <div class="footer-about">
+            <a class="footer-logo" href="#">SEA RESTURANT</a>
+            <p>2, Okiki Street, off Sabo, yaba Lagos</p>
+        </div>
+        <div class="footer-contact">
+            <ul>
+                <li>Monday - Wednesday: 9AM - 3PM</li>
+                <li>Thursday - Sunday: 9AM - 1AM</li>
+                <li>Friday and Saturdays: 10PM - TDB</li>
+                
+            </ul>
+        </div>
+        <div class="footer-nav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    
+            </ul>
+        </div>
     </div>
 </body>
 </html>
